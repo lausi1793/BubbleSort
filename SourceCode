@@ -5,7 +5,7 @@ public class BubbleSort {
 public static void main(String[] args) {
   
         int intArray[] = new int[]{4,2,6,1,5,3,7};
-        System.out.println("Array bevor BubbleSort");
+        System.out.println("Array before BubbleSort");
         for(int i=0; i < intArray.length; i++){
                 System.out.print(intArray[i] + " ");
         }
@@ -13,7 +13,7 @@ public static void main(String[] args) {
        
         System.out.println("");
        
-        System.out.println("Array nach dem BubbleSort");
+        System.out.println("Array after BubbleSort");
         for(int i=0; i < intArray.length; i++){
                 System.out.print(intArray[i] + " ");
         }
